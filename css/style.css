@@ -1,0 +1,114 @@
+	#div_navi{
+	  margin:0;
+	  padding:0;
+	  width:100%;
+	  height:150px;
+	  background: rgb(125,126,125); /* Old browsers */
+	  background: -moz-linear-gradient(top, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6+ */
+	  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1))); /* Chrome,Safari4+ */
+	  background: -webkit-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10+,Safari5.1+ */
+	  background: -o-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Opera 11.10+ */
+	  background: -ms-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* IE10+ */
+	  background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C */
+	  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */	  position:relative;
+	  bottom:30px;
+	}
+        body {
+	  margin:0;
+	  padding:0;
+        }
+        h1 {
+          font-size:300%;
+	  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+          color:white;
+        }
+        #cont{
+          width:970px;
+          border:1px solid #ffffff;
+          border-radius:30px;
+          margin:0 auto;
+          height:380px;
+          align:center;
+          background:black;
+	  position:relative;
+          }
+        #turt{
+          width:54px;
+          height:48px;
+	  position:relative;
+	  bottom:456px;
+          }
+        .image {
+          height:130px;
+          width:130px;
+          border:black 2px solid;
+          border-radius:10px;
+          position: absolute;
+	  z-index: 1;
+        }
+        .curtains {
+          height:130px;
+          width:130px;
+          border:black 2px solid;
+          border-radius:10px;
+          position: absolute;
+	  z-index: 2;
+        }
+        .div {
+          height:165px;
+          width:130px;
+          background:black;
+          margin:15px 15px auto;
+          float:left;
+
+        }
+
+        #copyright {
+	  background: #172d4f;
+	  height: 30px;
+	  width: 100%;
+	  margin-top: 550px;
+	  text-align: center;
+	  color: grey;
+	  overflow: hidden;
+	  position: absolute;
+	  bottom: 0;
+	}
+	
+	p.title{
+	 position:relative;
+	 top:125px;
+	 left:20px;
+	 font-weight:bold;
+	 font-size:115%;
+	 color:white;
+	 
+	}
+	
+	a.nounderline:link {   
+	  text-decoration:none;
+	  color:white;
+	  font-style: italic;
+
+	}  
+	a.nounderline:visited {   
+	  text-decoration:none;
+	  color:white;
+	  font-style: italic;
+
+	} 
+
+
+	#luigigif {
+	  left:0px;
+	  top:100px;
+	  position:absolute;
+	  width:125px;
+	  height:130px;
+	} 
+
+	.titulo {
+	  position:absolute;
+	  top:35%;
+	  left:5%;		
+	} 
