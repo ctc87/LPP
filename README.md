@@ -1,2 +1,2 @@
 # LPP
-Practicas de lenguajes y pradigmas de la programación
+Practicas de procesadores de lenguaje
